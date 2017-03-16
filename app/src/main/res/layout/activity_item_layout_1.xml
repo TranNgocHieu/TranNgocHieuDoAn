@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_tong_hop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.appthongtinhou.appthongtin.Item_layout_1">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:textColor="#FAFAFA"
+            android:background="#3F51B5"
+            android:textSize="20sp"
+            android:text="Thời sự"
+            android:layout_weight="1"
+            android:id="@+id/btn_thoisu"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <Button
+            android:textColor="#FAFAFA"
+            android:layout_marginLeft="10dp"
+            android:background="#64FFDA"
+            android:textSize="20sp"
+            android:text="Thế giới"
+            android:layout_weight="1"
+            android:id="@+id/btn_thegioi"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <Button
+            android:textColor="#FAFAFA"
+            android:layout_marginLeft="10dp"
+            android:background="#3F51B5"
+            android:textSize="20sp"
+            android:text="giải trí"
+            android:layout_weight="1"
+            android:id="@+id/btn_giaitri"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:textColor="#FAFAFA"
+            android:background="#00E676"
+            android:textSize="20sp"
+            android:text="Thể thao"
+            android:layout_weight="1"
+            android:id="@+id/btn_thethao"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <Button
+            android:textColor="#FAFAFA"
+            android:layout_marginLeft="10dp"
+            android:background="#F44336"
+            android:textSize="20sp"
+            android:text="Giáo dục"
+            android:layout_weight="1"
+            android:id="@+id/btn_giaoduc"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <Button
+            android:textColor="#FAFAFA"
+            android:layout_marginLeft="10dp"
+            android:background="#FFCC80"
+            android:textSize="20sp"
+            android:text="sức khỏe"
+            android:layout_weight="1"
+            android:id="@+id/btn_suckhoe"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:textColor="#FAFAFA"
+            android:background="#FFCC80"
+            android:textSize="20sp"
+            android:text="gia đình"
+            android:layout_weight="1"
+            android:id="@+id/btn_giadinh"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <Button
+            android:textColor="#FAFAFA"
+            android:layout_marginLeft="10dp"
+            android:background="#039BE5"
+            android:textSize="20sp"
+            android:text="du lịch"
+            android:layout_weight="1"
+            android:id="@+id/btn_dulich"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <Button
+            android:textColor="#FAFAFA"
+            android:layout_marginLeft="10dp"
+            android:background="#00E676"
+            android:textSize="17sp"
+            android:text="khoa học"
+            android:layout_weight="1"
+            android:id="@+id/btn_khoahoc"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:textColor="#FAFAFA"
+            android:background="#3F51B5"
+            android:textSize="18sp"
+            android:text="Kinh doanh"
+            android:layout_weight="1"
+            android:id="@+id/btn_kinhdoanh"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <Button
+            android:textColor="#FAFAFA"
+            android:layout_marginLeft="10dp"
+            android:background="#8D6E63"
+            android:textSize="20sp"
+            android:text="Pháp luật"
+            android:layout_weight="1"
+            android:id="@+id/btn_phapluat"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <Button
+            android:textColor="#FAFAFA"
+            android:layout_marginLeft="10dp"
+            android:background="#3F51B5"
+            android:textSize="17sp"
+            android:text="truyện cười"
+            android:layout_weight="1"
+            android:id="@+id/btn_cuoi"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
